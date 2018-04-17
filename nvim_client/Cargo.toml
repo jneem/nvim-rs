@@ -1,0 +1,11 @@
+[package]
+name = "nvim_client"
+version = "0.1.0"
+authors = ["Joe Neeman <joeneeman@gmail.com>"]
+
+[dependencies]
+    clap = "2.31"
+    failure = "0.1"
+    futures = "0.1"
+    nvim_client_api = { path = "../nvim_client_api/" }
+    tokio-core = "0.1"

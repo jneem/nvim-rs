@@ -1,0 +1,3 @@
+[workspace]
+members = ["api_gen", "nvim_client_api", "nvim_client"]
+
